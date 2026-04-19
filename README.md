@@ -4,7 +4,7 @@ Bu proje, **Ollama API** ve **Llama 3** modeli kullanılarak geliştirilmiş, ta
 
 ---
 
-### 🛡️ Proje Tanımı ve Özellikler (İlk Yarım)
+### 🛡️ Proje Tanımı ve Özellikler
 
 Özellikle veri gizliliğinin kritik olduğu alanlar (savunma sanayii, akademik araştırmalar vb.) için tasarlanmıştır. Verileriniz asla internete veya üçüncü taraf bulut servislerine gönderilmez.
 
@@ -24,7 +24,7 @@ Bu proje, **Ollama API** ve **Llama 3** modeli kullanılarak geliştirilmiş, ta
 
 ---
 
-### 🚀 Kurulum ve Kullanım (Son Yarım)
+### 🚀 Kurulum ve Kullanım
 
 Projeyi kendi makinenizde ayağa kaldırmak için aşağıdaki adımları sırasıyla takip edebilirsiniz:
 
@@ -46,5 +46,3 @@ Bash
 streamlit run app.py
 ⚠️ Önemli Notlar
 Güvenlik Uyarısı: Proje geliştirilirken notlarda belirtilen SQL Injection risklerine karşı dikkatli olunmuştur. Eğer projeye bir veritabanı modülü eklenirse, döküman içeriklerini kaydederken mutlaka parameterized queries (parametreleştirilmiş sorgular) kullanılması zorunludur.
-
-Gelecek Planları: Projenin ilerleyen versiyonlarında Balistik hesaplama modülü ve çoklu döküman karşılaştırma özelliklerinin eklenmesi planlanmaktadır.
